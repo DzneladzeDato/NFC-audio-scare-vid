@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <title>NFC</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <button id="playBtn"></button>
-  
+  <button id="playBtn" aria-label="Play video">
+    <img src="lukicha.png" alt="Play">
+  </button>
+
   <video id="myVideo" playsinline>
     <source src="vdff.mp4" type="video/mp4">
-    Your browser does not support video.
   </video>
 
   <script src="script.js"></script>
