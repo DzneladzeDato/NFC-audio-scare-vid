@@ -6,11 +6,9 @@ playBtn.addEventListener("click", () => {
   video.play();
   video.volume = 1.0;
 
-  // Hide everything else
   playBtn.style.display = "none";
   document.body.style.background = "black";
 
-  // Request fullscreen
   if (video.requestFullscreen) {
     video.requestFullscreen();
   } else if (video.webkitRequestFullscreen) {
